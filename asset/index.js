@@ -1,5 +1,5 @@
 const servers = [
-  "https://abibd.com",
+  "http://abistation.net/",
   "http://ftpbd.net",
   "http://103.58.73.9",
   "http://media.ftpbd.net",
