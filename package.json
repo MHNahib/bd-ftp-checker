@@ -1,0 +1,33 @@
+{
+  "name": "bd-ftp-checker",
+  "version": "1.0.0",
+  "description": "bd-ftp-checker is a cli tool designed for check the availabe ftp servers in your local network.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MHNahib/bd-ftp-checker"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bd-ftp-checker": "index.js"
+  },
+  "keywords": [
+    "bd",
+    "ftp",
+    "checker",
+    "ftp-checker",
+    "bd-ftp-checker",
+    "network",
+    "check network",
+    "bangladesh"
+  ],
+  "author": "M. H. Nahib",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "figlet": "^1.7.0"
+  }
+}
