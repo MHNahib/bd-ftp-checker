@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { servers } = require("./asset");
 const { generateFiglet, get } = require("./utils");
 
