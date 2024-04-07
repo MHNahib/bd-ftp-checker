@@ -1,6 +1,6 @@
 {
   "name": "bd-ftp-checker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bd-ftp-checker is a CLI tool designed for checking the available FTP servers in your local network.",
   "main": "index.js",
   "repository": {
