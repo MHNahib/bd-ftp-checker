@@ -13,9 +13,8 @@ module.exports = generateHtml = (results) => {
   );
   for (const result of sortedResults) {
     const { index, status, server } = result;
-    const text = `[${index + 1}]`;
     htmlContent.push(
-      `<p>${text} - ${
+      `<p>${
         status === 200 ? "✅" : "❌"
       } : <a href=' ${server}' target="_blank"> ${server} </a></p>`
     );
