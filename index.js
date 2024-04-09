@@ -17,7 +17,7 @@ async function checkAllServers() {
     }
   });
 
-  const results = await Promise.all(requests);
+  const results = await Promise.allSettled(requests);
   generateHtml(results);
 }
 
