@@ -18,7 +18,8 @@ async function checkAllServers() {
   });
 
   const results = await Promise.allSettled(requests);
-  generateHtml(results);
+  const _results = results?.map((result) => result?.value);
+  generateHtml(_results);
 }
 
 const main = async () => {
