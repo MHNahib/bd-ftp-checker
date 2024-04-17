@@ -2,7 +2,7 @@ const fs = require("fs");
 const { exec } = require("child_process");
 
 module.exports = generateHtml = (results) => {
-  const sortedResults = results?.sort((a, b) => a.status - b.status);
+  const sortedResults = results?.sort((a, b) => b.success - a.success);
   const htmlContent = [];
   htmlContent.push(
     "<html><head><title>Server Check Results</title></head><body>"
@@ -12,10 +12,10 @@ module.exports = generateHtml = (results) => {
     "<h3>Developed by <a href='https://www.linkedin.com/in/mhnahib/'>M. H. Nahib</a></h3>"
   );
   for (const result of sortedResults) {
-    const { index, status, server } = result;
+    const { index, success, server } = result;
     htmlContent.push(
       `<p>${
-        status === 200 ? "✅" : "❌"
+        success ? "✅" : "❌"
       } : <a href=' ${server}' target="_blank"> ${server} </a></p>`
     );
   }

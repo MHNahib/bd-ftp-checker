@@ -3,17 +3,22 @@
 const { servers } = require("./asset");
 const { generateFiglet, get, generateHtml } = require("./utils");
 
+const didRequestSucceed = (reason) =>
+  typeof reason === "number" && reason >= 200 && reason < 300;
+
 async function checkAllServers() {
   const requests = servers.map(async (server, index) => {
     try {
-      const response = await get(server);
+      const { status } = await get(server);
 
-      console.log(`\x1b[32m✅ : ${server} 200\x1b[0m`);
-      return { index, status: response.status, server };
+      console.log(`\x1b[32m✅ : ${server} ${status}\x1b[0m`);
+      return { index, success: true, server };
     } catch (error) {
-      console.log(`\x1b[31m❌ : ${server} 500\x1b[0m`);
+      const reason = error.response?.status || error.code;
 
-      return { index, status: 500, server };
+      console.log(`\x1b[31m❌ : ${server} ${reason}\x1b[0m`);
+
+      return { index, success: didRequestSucceed(reason), server };
     }
   });
 
