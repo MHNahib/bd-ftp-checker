@@ -27,7 +27,7 @@
   "author": "M. H. Nahib",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "figlet": "^1.7.0"
   }
 }
