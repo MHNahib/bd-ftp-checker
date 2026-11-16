@@ -14,7 +14,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "bd-ftp-checker": "./dist/cli.js"
+    "bd-ftp-checker": "dist/cli.js"
   },
   "files": [
     "dist",

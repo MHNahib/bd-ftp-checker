@@ -33,7 +33,7 @@ function defaultPort(url: URL): number {
 /**
  * Check every server and return results sorted fastest-first.
  *
- * Tip for API users: set `UV_THREADPOOL_SIZE=64` (env, before Node starts any fs/dns work) —
+ * Tip for API users: set `UV_THREADPOOL_SIZE=64` (env, before Node starts any fs/dns work) â€”
  * DNS lookups use the libuv threadpool, and the default 4 threads cause false timeouts.
  */
 export async function checkServers(
