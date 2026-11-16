@@ -1,33 +1,68 @@
 {
   "name": "bd-ftp-checker",
-  "version": "1.0.5",
-  "description": "bd-ftp-checker is a CLI tool designed for checking the available FTP servers in your local network.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MHNahib/bd-ftp-checker"
-  },
-  "scripts": {
-    "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "2.0.0",
+  "description": "Fast CLI to find which Bangladeshi FTP / BDIX media servers are reachable from your network.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./servers.json": "./data/servers.json",
+    "./package.json": "./package.json"
   },
   "bin": {
-    "bd-ftp-checker": "index.js"
+    "bd-ftp-checker": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data/servers.json"
+  ],
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHNahib/bd-ftp-checker.git"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsup && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "validate:servers": "tsx scripts/validate-servers.ts",
+    "prepublishOnly": "npm run check && npm run typecheck && npm test && npm run validate:servers && npm run build"
   },
   "keywords": [
     "bd",
     "ftp",
+    "bdix",
     "checker",
     "ftp-checker",
     "bd-ftp-checker",
     "network",
     "check network",
-    "bangladesh"
+    "bangladesh",
+    "emby",
+    "media-server"
   ],
   "author": "M. H. Nahib",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.8",
-    "figlet": "^1.7.0"
+    "@clack/prompts": "^1.9.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.8",
+    "@types/node": "^22.19.11",
+    "tsup": "^9.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
   }
 }
