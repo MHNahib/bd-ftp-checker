@@ -1,0 +1,4254 @@
+{
+  "version": "2026.11.16",
+  "updatedAt": "2026-11-16T04:38:02.077Z",
+  "servers": [
+    {
+      "url": "http://abistation.net",
+      "name": "abistation.net",
+      "provider": "Abistation",
+      "type": "web"
+    },
+    {
+      "url": "http://ftpbd.net",
+      "name": "ftpbd.net",
+      "provider": "FTPBD",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.58.73.9",
+      "name": "103.58.73.9",
+      "provider": "FTPBD",
+      "type": "ftp"
+    },
+    {
+      "url": "http://media.ftpbd.net",
+      "name": "media.ftpbd.net",
+      "provider": "FTPBD",
+      "type": "ftp"
+    },
+    {
+      "url": "http://server1.ftpbd.net",
+      "name": "server1.ftpbd.net",
+      "provider": "FTPBD",
+      "type": "ftp"
+    },
+    {
+      "url": "http://server4.ftpbd.net",
+      "name": "server4.ftpbd.net",
+      "provider": "FTPBD",
+      "type": "ftp"
+    },
+    {
+      "url": "https://circlenetworkbd.net",
+      "name": "circlenetworkbd.net",
+      "provider": "Circle Network",
+      "type": "web"
+    },
+    {
+      "url": "http://103.170.204.84",
+      "name": "103.170.204.84",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://new.circleftp.net",
+      "name": "new.circleftp.net",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://circleftp.net",
+      "name": "circleftp.net",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://15.1.1.4",
+      "name": "15.1.1.4",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://ftp4.circleftp.net",
+      "name": "ftp4.circleftp.net",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://15.1.1.5",
+      "name": "15.1.1.5",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://old.circleftp.net",
+      "name": "old.circleftp.net",
+      "provider": "Circle Network",
+      "type": "ftp"
+    },
+    {
+      "url": "http://emby.circleftp.net:8096",
+      "name": "emby.circleftp.net:8096",
+      "provider": "Circle Network",
+      "type": "emby"
+    },
+    {
+      "url": "https://sambd.com",
+      "name": "sambd.com",
+      "provider": "SAM Online",
+      "type": "web"
+    },
+    {
+      "url": "http://172.16.50.4",
+      "name": "172.16.50.4",
+      "provider": "SAM Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.16.50.5",
+      "name": "172.16.50.5",
+      "provider": "SAM Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://movie.sambd.net:8096",
+      "name": "movie.sambd.net:8096",
+      "provider": "SAM Online",
+      "type": "emby"
+    },
+    {
+      "url": "https://samftp.com",
+      "name": "samftp.com",
+      "provider": "SAM Online",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.cogentbroadband.net",
+      "name": "www.cogentbroadband.net",
+      "provider": "Cogentbroadband",
+      "type": "web"
+    },
+    {
+      "url": "http://khulnaflix.net",
+      "name": "khulnaflix.net",
+      "provider": "Khulnaflix",
+      "type": "web"
+    },
+    {
+      "url": "http://103.153.175.254/NAS1",
+      "name": "103.153.175.254/NAS1",
+      "provider": "Khulnaflix",
+      "type": "ftp"
+    },
+    {
+      "url": "http://bokasoka.net",
+      "name": "bokasoka.net",
+      "provider": "Bokasoka",
+      "type": "web"
+    },
+    {
+      "url": "http://bokasoka.net/NAS1",
+      "name": "bokasoka.net/NAS1",
+      "provider": "Bokasoka",
+      "type": "ftp"
+    },
+    {
+      "url": "http://file.khulnaflix.net",
+      "name": "file.khulnaflix.net",
+      "provider": "Khulnaflix",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.discoverynetbd.com",
+      "name": "www.discoverynetbd.com",
+      "provider": "Discovery Online",
+      "type": "web"
+    },
+    {
+      "url": "http://103.120.165.196",
+      "name": "103.120.165.196",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://discoveryftp.net",
+      "name": "discoveryftp.net",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://dflix.discoveryftp.net",
+      "name": "dflix.discoveryftp.net",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cds1.discoveryftp.net",
+      "name": "cds1.discoveryftp.net",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cds2.discoveryftp.net",
+      "name": "cds2.discoveryftp.net",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cds3.discoveryftp.net",
+      "name": "cds3.discoveryftp.net",
+      "provider": "Discovery Online",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.onesky.com.bd",
+      "name": "www.onesky.com.bd",
+      "provider": "Onesky",
+      "type": "web"
+    },
+    {
+      "url": "https://www.1netbd.com",
+      "name": "www.1netbd.com",
+      "provider": "1netbd",
+      "type": "web"
+    },
+    {
+      "url": "http://10.100.100.10",
+      "name": "10.100.100.10",
+      "provider": "1netbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.77.252.113",
+      "name": "103.77.252.113",
+      "provider": "1netbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.showtimebd.com",
+      "name": "www.showtimebd.com",
+      "provider": "Showtimebd",
+      "type": "web"
+    },
+    {
+      "url": "http://10.100.100.12",
+      "name": "10.100.100.12",
+      "provider": "Showtimebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.100.100.13",
+      "name": "10.100.100.13",
+      "provider": "Showtimebd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://ddnbd.com",
+      "name": "ddnbd.com",
+      "provider": "Ddnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.ddnbd.fun",
+      "name": "www.ddnbd.fun",
+      "provider": "Ddnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://ctgmovies.com",
+      "name": "ctgmovies.com",
+      "provider": "Ctgmovies",
+      "type": "web"
+    },
+    {
+      "url": "http://crazyctg.com",
+      "name": "crazyctg.com",
+      "provider": "Crazyctg",
+      "type": "web"
+    },
+    {
+      "url": "http://media.ctgfun.com",
+      "name": "media.ctgfun.com",
+      "provider": "Ctgfun",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.exordonline.com",
+      "name": "www.exordonline.com",
+      "provider": "Exordonline",
+      "type": "web"
+    },
+    {
+      "url": "http://fs.ebox.live",
+      "name": "fs.ebox.live",
+      "provider": "eBox",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.49.168.107",
+      "name": "103.49.168.107",
+      "provider": "eBox",
+      "type": "ftp"
+    },
+    {
+      "url": "http://fileserver.ebox.live",
+      "name": "fileserver.ebox.live",
+      "provider": "eBox",
+      "type": "ftp"
+    },
+    {
+      "url": "http://play.ebox.live",
+      "name": "play.ebox.live",
+      "provider": "eBox",
+      "type": "web"
+    },
+    {
+      "url": "https://icc.com.bd",
+      "name": "icc.com.bd",
+      "provider": "ICC Communication",
+      "type": "web"
+    },
+    {
+      "url": "https://iccfios.net",
+      "name": "iccfios.net",
+      "provider": "ICC Communication",
+      "type": "web"
+    },
+    {
+      "url": "https://icctalk.com",
+      "name": "icctalk.com",
+      "provider": "ICC Communication",
+      "type": "web"
+    },
+    {
+      "url": "http://10.16.100.244",
+      "name": "10.16.100.244",
+      "provider": "ICC Communication",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.16.100.202/ftps10",
+      "name": "10.16.100.202/ftps10",
+      "provider": "ICC Communication",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.16.100.206/ftps3",
+      "name": "10.16.100.206/ftps3",
+      "provider": "ICC Communication",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.antbd.com",
+      "name": "www.antbd.com",
+      "provider": "Antbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.antbd.net",
+      "name": "www.antbd.net",
+      "provider": "Antbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.237.37.181",
+      "name": "103.237.37.181",
+      "provider": "Antbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://dhakamovie.com",
+      "name": "dhakamovie.com",
+      "provider": "Dhakamovie",
+      "type": "web"
+    },
+    {
+      "url": "http://xpress.ltd",
+      "name": "xpress.ltd",
+      "provider": "Xpress",
+      "type": "web"
+    },
+    {
+      "url": "http://103.43.148.68",
+      "name": "103.43.148.68",
+      "provider": "Xpress",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.naturalbd.com",
+      "name": "www.naturalbd.com",
+      "provider": "Naturalbd",
+      "type": "web"
+    },
+    {
+      "url": "http://skyviewonlineltd.com",
+      "name": "skyviewonlineltd.com",
+      "provider": "Skyviewonlineltd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.200.36.250",
+      "name": "103.200.36.250",
+      "provider": "Skyviewonlineltd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.timepassbd.live",
+      "name": "www.timepassbd.live",
+      "provider": "Timepassbd",
+      "type": "web"
+    },
+    {
+      "url": "http://ftp.timepassbd.live",
+      "name": "ftp.timepassbd.live",
+      "provider": "Timepassbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.citycomnetwork.com.bd",
+      "name": "www.citycomnetwork.com.bd",
+      "provider": "Citycomnetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://11.11.11.11",
+      "name": "11.11.11.11",
+      "provider": "Citycomnetwork",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.204.244.70",
+      "name": "103.204.244.70",
+      "provider": "Citycomnetwork",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.204.244.70/Data/Data",
+      "name": "103.204.244.70/Data/Data",
+      "provider": "Citycomnetwork",
+      "type": "ftp"
+    },
+    {
+      "url": "https://carnival.com.bd",
+      "name": "carnival.com.bd",
+      "provider": "Carnival",
+      "type": "web"
+    },
+    {
+      "url": "http://103.106.238.74",
+      "name": "103.106.238.74",
+      "provider": "Carnival",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.106.238.74/Data",
+      "name": "103.106.238.74/Data",
+      "provider": "Carnival",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.nagordola.com.bd",
+      "name": "www.nagordola.com.bd",
+      "provider": "Nagordola",
+      "type": "web"
+    },
+    {
+      "url": "http://www.triangle.com.bd",
+      "name": "www.triangle.com.bd",
+      "provider": "Triangle",
+      "type": "web"
+    },
+    {
+      "url": "http://www.elaach.com",
+      "name": "www.elaach.com",
+      "provider": "Elaach",
+      "type": "web"
+    },
+    {
+      "url": "https://uniquenetbd.com",
+      "name": "uniquenetbd.com",
+      "provider": "Uniquenetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.91.144.230",
+      "name": "103.91.144.230",
+      "provider": "Uniquenetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.91.144.230/ftpdata",
+      "name": "103.91.144.230/ftpdata",
+      "provider": "Uniquenetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.uniquedownloadbd.com",
+      "name": "www.uniquedownloadbd.com",
+      "provider": "Uniquedownloadbd",
+      "type": "web"
+    },
+    {
+      "url": "https://sunonlinebd.com",
+      "name": "sunonlinebd.com",
+      "provider": "Sunonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.85.235.254",
+      "name": "103.85.235.254",
+      "provider": "Sunonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.85.235.254/storage",
+      "name": "103.85.235.254/storage",
+      "provider": "Sunonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.mojaloss.stream",
+      "name": "www.mojaloss.stream",
+      "provider": "Mojaloss",
+      "type": "web"
+    },
+    {
+      "url": "http://www.fnfonlinebd.com",
+      "name": "www.fnfonlinebd.com",
+      "provider": "Fnfonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.82.8.194",
+      "name": "103.82.8.194",
+      "provider": "Fnfonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.82.8.194/Data",
+      "name": "103.82.8.194/Data",
+      "provider": "Fnfonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://movies.fnfonlinebd.com",
+      "name": "movies.fnfonlinebd.com",
+      "provider": "Fnfonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://deshnetbd.com",
+      "name": "deshnetbd.com",
+      "provider": "Deshnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.152.18.18",
+      "name": "103.152.18.18",
+      "provider": "Deshnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.152.18.18/Data",
+      "name": "103.152.18.18/Data",
+      "provider": "Deshnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://inspirebroadband.net",
+      "name": "inspirebroadband.net",
+      "provider": "Inspirebroadband",
+      "type": "web"
+    },
+    {
+      "url": "http://ihub.live",
+      "name": "ihub.live",
+      "provider": "Ihub",
+      "type": "web"
+    },
+    {
+      "url": "http://sg-cdn.ihub.live:8787/download/games",
+      "name": "sg-cdn.ihub.live:8787/download/games",
+      "provider": "Ihub",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.colbd.com",
+      "name": "www.colbd.com",
+      "provider": "Colbd",
+      "type": "web"
+    },
+    {
+      "url": "https://fiber.colbd.com",
+      "name": "fiber.colbd.com",
+      "provider": "Colbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.smartflix.digital",
+      "name": "www.smartflix.digital",
+      "provider": "Smartflix",
+      "type": "web"
+    },
+    {
+      "url": "http://www.smartstudio.digital",
+      "name": "www.smartstudio.digital",
+      "provider": "Smartstudio",
+      "type": "web"
+    },
+    {
+      "url": "http://metromedia.digital",
+      "name": "metromedia.digital",
+      "provider": "Metromedia",
+      "type": "web"
+    },
+    {
+      "url": "http://cloudone.com.bd",
+      "name": "cloudone.com.bd",
+      "provider": "Cloudone",
+      "type": "web"
+    },
+    {
+      "url": "http://www.c1movies.com",
+      "name": "www.c1movies.com",
+      "provider": "C1movies",
+      "type": "web"
+    },
+    {
+      "url": "http://bdmovies.net",
+      "name": "bdmovies.net",
+      "provider": "Bdmovies",
+      "type": "web"
+    },
+    {
+      "url": "https://linktech.net.bd",
+      "name": "linktech.net.bd",
+      "provider": "Linktech",
+      "type": "web"
+    },
+    {
+      "url": "http://play.linkftp.com",
+      "name": "play.linkftp.com",
+      "provider": "Linkftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cdn.linkftp.com",
+      "name": "cdn.linkftp.com",
+      "provider": "Linkftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.14.129.246",
+      "name": "103.14.129.246",
+      "provider": "Linkftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://tajpata.com",
+      "name": "tajpata.com",
+      "provider": "Tajpata",
+      "type": "web"
+    },
+    {
+      "url": "http://103.14.129.246/data",
+      "name": "103.14.129.246/data",
+      "provider": "Tajpata",
+      "type": "ftp"
+    },
+    {
+      "url": "http://file.tajpata.com",
+      "name": "file.tajpata.com",
+      "provider": "Tajpata",
+      "type": "ftp"
+    },
+    {
+      "url": "https://ksnetworkbd.com",
+      "name": "ksnetworkbd.com",
+      "provider": "Ksnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.27.27.83",
+      "name": "172.27.27.83",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.84",
+      "name": "172.27.27.84",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.26//2TB4",
+      "name": "172.27.27.26//2TB4",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.124/s1d1",
+      "name": "172.27.27.124/s1d1",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.244/2TB1",
+      "name": "172.27.27.244/2TB1",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.245/2TB1",
+      "name": "172.27.27.245/2TB1",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.248/2TB1",
+      "name": "172.27.27.248/2TB1",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.250/2TB1",
+      "name": "172.27.27.250/2TB1",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.251/2TB2",
+      "name": "172.27.27.251/2TB2",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.252/2TB2",
+      "name": "172.27.27.252/2TB2",
+      "provider": "Ksnetworkbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.mazedanetworks.net",
+      "name": "www.mazedanetworks.net",
+      "provider": "Mazedanetworks",
+      "type": "web"
+    },
+    {
+      "url": "http://172.22.22.100",
+      "name": "172.22.22.100",
+      "provider": "Mazedanetworks",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.22.22.101",
+      "name": "172.22.22.101",
+      "provider": "Mazedanetworks",
+      "type": "ftp"
+    },
+    {
+      "url": "http://ftpweb.mazedanetworks.net",
+      "name": "ftpweb.mazedanetworks.net",
+      "provider": "Mazedanetworks",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.22.22.105:8096",
+      "name": "172.22.22.105:8096",
+      "provider": "Mazedanetworks",
+      "type": "emby"
+    },
+    {
+      "url": "https://visiontechnologiesltd.com",
+      "name": "visiontechnologiesltd.com",
+      "provider": "Visiontechnologiesltd",
+      "type": "web"
+    },
+    {
+      "url": "https://sunplex.net",
+      "name": "sunplex.net",
+      "provider": "Sunplex",
+      "type": "web"
+    },
+    {
+      "url": "https://storage.sunplex.net",
+      "name": "storage.sunplex.net",
+      "provider": "Sunplex",
+      "type": "web"
+    },
+    {
+      "url": "http://fn-bd.com",
+      "name": "fn-bd.com",
+      "provider": "Fn-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.moviemela.live",
+      "name": "www.moviemela.live",
+      "provider": "Moviemela",
+      "type": "web"
+    },
+    {
+      "url": "http://amarnetsystem.com",
+      "name": "amarnetsystem.com",
+      "provider": "Amarnetsystem",
+      "type": "web"
+    },
+    {
+      "url": "http://103.205.233.70",
+      "name": "103.205.233.70",
+      "provider": "Amarnetsystem",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.205.233.70/Data",
+      "name": "103.205.233.70/Data",
+      "provider": "Amarnetsystem",
+      "type": "ftp"
+    },
+    {
+      "url": "http://dhakaftp.com",
+      "name": "dhakaftp.com",
+      "provider": "Dhakaftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://dhakaftp.com/Data",
+      "name": "dhakaftp.com/Data",
+      "provider": "Dhakaftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.17.172.242",
+      "name": "172.17.172.242",
+      "provider": "Dhakaftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.freedownloadbd.com",
+      "name": "www.freedownloadbd.com",
+      "provider": "Freedownloadbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.dfnbd.net",
+      "name": "www.dfnbd.net",
+      "provider": "Dfnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://media.dfnbd.net",
+      "name": "media.dfnbd.net",
+      "provider": "Dfnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://mcbroadbandbd.com",
+      "name": "mcbroadbandbd.com",
+      "provider": "Mcbroadbandbd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.17.254.2",
+      "name": "172.17.254.2",
+      "provider": "Mcbroadbandbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://planet3communication.com",
+      "name": "planet3communication.com",
+      "provider": "Planet3communication",
+      "type": "web"
+    },
+    {
+      "url": "http://www.candybd.net",
+      "name": "www.candybd.net",
+      "provider": "Candybd",
+      "type": "web"
+    },
+    {
+      "url": "http://candybd.net/upload/source/movies",
+      "name": "candybd.net/upload/source/movies",
+      "provider": "Candybd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.mcnbd.com",
+      "name": "www.mcnbd.com",
+      "provider": "Mcnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://ftp.mcnbd.com",
+      "name": "ftp.mcnbd.com",
+      "provider": "Mcnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://fun.mcnbd.com",
+      "name": "fun.mcnbd.com",
+      "provider": "Mcnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://12.1.1.2",
+      "name": "12.1.1.2",
+      "provider": "Mcnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://12.1.1.3/flix",
+      "name": "12.1.1.3/flix",
+      "provider": "Mcnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://pollyflix.com",
+      "name": "pollyflix.com",
+      "provider": "Pollyflix",
+      "type": "web"
+    },
+    {
+      "url": "http://fs.amrbd.com",
+      "name": "fs.amrbd.com",
+      "provider": "Amrbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://fs2.amrbd.com",
+      "name": "fs2.amrbd.com",
+      "provider": "Amrbd",
+      "type": "web"
+    },
+    {
+      "url": "http://come2speed.com",
+      "name": "come2speed.com",
+      "provider": "Come2speed",
+      "type": "web"
+    },
+    {
+      "url": "http://103.199.155.150",
+      "name": "103.199.155.150",
+      "provider": "Come2speed",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.199.155.150/ftpdata",
+      "name": "103.199.155.150/ftpdata",
+      "provider": "Come2speed",
+      "type": "ftp"
+    },
+    {
+      "url": "http://timenai.com",
+      "name": "timenai.com",
+      "provider": "Timenai",
+      "type": "web"
+    },
+    {
+      "url": "https://dnetbd.com",
+      "name": "dnetbd.com",
+      "provider": "Dnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.76.196.90",
+      "name": "103.76.196.90",
+      "provider": "Dnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://dnetdrive.com",
+      "name": "dnetdrive.com",
+      "provider": "Dnetdrive",
+      "type": "web"
+    },
+    {
+      "url": "https://www.rangdhanu.live",
+      "name": "www.rangdhanu.live",
+      "provider": "Rangdhanu",
+      "type": "web"
+    },
+    {
+      "url": "http://fs.rangdhanu.live",
+      "name": "fs.rangdhanu.live",
+      "provider": "Rangdhanu",
+      "type": "ftp"
+    },
+    {
+      "url": "http://emby.rangdhanu.live",
+      "name": "emby.rangdhanu.live",
+      "provider": "Rangdhanu",
+      "type": "emby"
+    },
+    {
+      "url": "https://www.race.net.bd",
+      "name": "www.race.net.bd",
+      "provider": "Race",
+      "type": "web"
+    },
+    {
+      "url": "http://moviedom.live",
+      "name": "moviedom.live",
+      "provider": "Moviedom",
+      "type": "web"
+    },
+    {
+      "url": "http://movie.moviedom.live",
+      "name": "movie.moviedom.live",
+      "provider": "Moviedom",
+      "type": "ftp"
+    },
+    {
+      "url": "http://movie.moviedom.live/Data",
+      "name": "movie.moviedom.live/Data",
+      "provider": "Moviedom",
+      "type": "ftp"
+    },
+    {
+      "url": "http://59.152.101.198",
+      "name": "59.152.101.198",
+      "provider": "Moviedom",
+      "type": "ftp"
+    },
+    {
+      "url": "http://moviehaat.net",
+      "name": "moviehaat.net",
+      "provider": "Moviehaat",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn2.moviehaat.net:8080/Upload",
+      "name": "cdn2.moviehaat.net:8080/Upload",
+      "provider": "Moviehaat",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.dotinternetbd.com",
+      "name": "www.dotinternetbd.com",
+      "provider": "Dotinternetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://dflix.live",
+      "name": "dflix.live",
+      "provider": "Discovery Online",
+      "type": "web"
+    },
+    {
+      "url": "http://fs1.dflix.live",
+      "name": "fs1.dflix.live",
+      "provider": "Discovery Online",
+      "type": "web"
+    },
+    {
+      "url": "http://www.skyinfoonline.net",
+      "name": "www.skyinfoonline.net",
+      "provider": "Skyinfoonline",
+      "type": "web"
+    },
+    {
+      "url": "http://103.132.187.18",
+      "name": "103.132.187.18",
+      "provider": "Skyinfoonline",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.132.187.18/Data",
+      "name": "103.132.187.18/Data",
+      "provider": "Skyinfoonline",
+      "type": "ftp"
+    },
+    {
+      "url": "http://moviemaja.net",
+      "name": "moviemaja.net",
+      "provider": "Moviemaja",
+      "type": "web"
+    },
+    {
+      "url": "http://moviemaja.net/Data",
+      "name": "moviemaja.net/Data",
+      "provider": "Moviemaja",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.195.1.50",
+      "name": "103.195.1.50",
+      "provider": "Moviemaja",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.195.1.50/Data",
+      "name": "103.195.1.50/Data",
+      "provider": "Moviemaja",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.1.1.1",
+      "name": "10.1.1.1",
+      "provider": "Moviemaja",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.1.1.1/Data",
+      "name": "10.1.1.1/Data",
+      "provider": "Moviemaja",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.cityonlinebd.net",
+      "name": "www.cityonlinebd.net",
+      "provider": "Cityonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://moviebazar.net",
+      "name": "moviebazar.net",
+      "provider": "Moviebazar",
+      "type": "web"
+    },
+    {
+      "url": "https://ibdplex.net",
+      "name": "ibdplex.net",
+      "provider": "Ibdplex",
+      "type": "web"
+    },
+    {
+      "url": "http://globalcommunicationbd.com",
+      "name": "globalcommunicationbd.com",
+      "provider": "Globalcommunicationbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.113.16.46",
+      "name": "103.113.16.46",
+      "provider": "Globalcommunicationbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.113.16.46/Data",
+      "name": "103.113.16.46/Data",
+      "provider": "Globalcommunicationbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.radisson-bd.net",
+      "name": "www.radisson-bd.net",
+      "provider": "Radisson-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://45.123.41.54",
+      "name": "45.123.41.54",
+      "provider": "Radisson-bd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://45.123.41.54/Data",
+      "name": "45.123.41.54/Data",
+      "provider": "Radisson-bd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://flixhub.net",
+      "name": "flixhub.net",
+      "provider": "Flixhub",
+      "type": "web"
+    },
+    {
+      "url": "http://flixhub.net/Data",
+      "name": "flixhub.net/Data",
+      "provider": "Flixhub",
+      "type": "ftp"
+    },
+    {
+      "url": "https://epnetbd.com",
+      "name": "epnetbd.com",
+      "provider": "Epnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.103.239.66",
+      "name": "103.103.239.66",
+      "provider": "Epnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://abcmoviesbd.com",
+      "name": "abcmoviesbd.com",
+      "provider": "Abcmoviesbd",
+      "type": "web"
+    },
+    {
+      "url": "http://abcflixbd.com",
+      "name": "abcflixbd.com",
+      "provider": "Abcflixbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.zerooneonline.net",
+      "name": "www.zerooneonline.net",
+      "provider": "Zerooneonline",
+      "type": "web"
+    },
+    {
+      "url": "http://ctgoz.com",
+      "name": "ctgoz.com",
+      "provider": "Ctgoz",
+      "type": "web"
+    },
+    {
+      "url": "https://www.briskinternet.com",
+      "name": "www.briskinternet.com",
+      "provider": "Briskinternet",
+      "type": "web"
+    },
+    {
+      "url": "http://smiledotnet.xyz",
+      "name": "smiledotnet.xyz",
+      "provider": "Smiledotnet",
+      "type": "web"
+    },
+    {
+      "url": "http://blurays2u.smiledotnet.xyz",
+      "name": "blurays2u.smiledotnet.xyz",
+      "provider": "Smiledotnet",
+      "type": "web"
+    },
+    {
+      "url": "http://www.alphabroadway.com",
+      "name": "www.alphabroadway.com",
+      "provider": "Alphabroadway",
+      "type": "web"
+    },
+    {
+      "url": "http://ftp.alphamediazone.com",
+      "name": "ftp.alphamediazone.com",
+      "provider": "Alphamediazone",
+      "type": "ftp"
+    },
+    {
+      "url": "http://asiancommunicationbd.com",
+      "name": "asiancommunicationbd.com",
+      "provider": "Asiancommunicationbd",
+      "type": "web"
+    },
+    {
+      "url": "http://asianftp.com",
+      "name": "asianftp.com",
+      "provider": "Asianftp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.anosbd.com",
+      "name": "www.anosbd.com",
+      "provider": "Anosbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.anosbd.com/ftp",
+      "name": "www.anosbd.com/ftp",
+      "provider": "Anosbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://asiannetworkbd.net",
+      "name": "asiannetworkbd.net",
+      "provider": "Asiannetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://alifanet.com",
+      "name": "alifanet.com",
+      "provider": "Alifanet",
+      "type": "web"
+    },
+    {
+      "url": "http://www.arafnetbd.com",
+      "name": "www.arafnetbd.com",
+      "provider": "Arafnetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.applenetbd.com",
+      "name": "www.applenetbd.com",
+      "provider": "Applenetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://activembd.com",
+      "name": "activembd.com",
+      "provider": "Activembd",
+      "type": "web"
+    },
+    {
+      "url": "https://activembd.com/internet/ftp-server",
+      "name": "activembd.com/internet/ftp-server",
+      "provider": "Activembd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.agcommunication.net",
+      "name": "www.agcommunication.net",
+      "provider": "Agcommunication",
+      "type": "web"
+    },
+    {
+      "url": "http://202.4.96.121",
+      "name": "202.4.96.121",
+      "provider": "Agcommunication",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.binodonmela.net",
+      "name": "www.binodonmela.net",
+      "provider": "Binodonmela",
+      "type": "web"
+    },
+    {
+      "url": "http://118.179.223.51",
+      "name": "118.179.223.51",
+      "provider": "Binodonmela",
+      "type": "ftp"
+    },
+    {
+      "url": "http://content2.binodonmela.net",
+      "name": "content2.binodonmela.net",
+      "provider": "Binodonmela",
+      "type": "web"
+    },
+    {
+      "url": "http://www.a1cyberlinkbd.com",
+      "name": "www.a1cyberlinkbd.com",
+      "provider": "A1cyberlinkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://arishabd.net",
+      "name": "arishabd.net",
+      "provider": "Arishabd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.avabdnet.com",
+      "name": "www.avabdnet.com",
+      "provider": "Avabdnet",
+      "type": "web"
+    },
+    {
+      "url": "https://applelinkbd.net",
+      "name": "applelinkbd.net",
+      "provider": "Applelinkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.as-bd.net",
+      "name": "www.as-bd.net",
+      "provider": "As-bd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.alibabanetwork.net",
+      "name": "www.alibabanetwork.net",
+      "provider": "Alibabanetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://akkadukka.com",
+      "name": "akkadukka.com",
+      "provider": "Akkadukka",
+      "type": "web"
+    },
+    {
+      "url": "http://akkadukka.com:8096",
+      "name": "akkadukka.com:8096",
+      "provider": "Akkadukka",
+      "type": "emby"
+    },
+    {
+      "url": "https://www.abnctg.net",
+      "name": "www.abnctg.net",
+      "provider": "Abnctg",
+      "type": "web"
+    },
+    {
+      "url": "http://www.asblink.net",
+      "name": "www.asblink.net",
+      "provider": "Asblink",
+      "type": "web"
+    },
+    {
+      "url": "http://asmabroadbandnetwork.com",
+      "name": "asmabroadbandnetwork.com",
+      "provider": "Asmabroadbandnetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://220.152.114.214",
+      "name": "220.152.114.214",
+      "provider": "Asmabroadbandnetwork",
+      "type": "ftp"
+    },
+    {
+      "url": "https://addanetwork.net",
+      "name": "addanetwork.net",
+      "provider": "Addanetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://aknetworksbd.com",
+      "name": "aknetworksbd.com",
+      "provider": "Aknetworksbd",
+      "type": "web"
+    },
+    {
+      "url": "http://aktube.live",
+      "name": "aktube.live",
+      "provider": "Aktube",
+      "type": "web"
+    },
+    {
+      "url": "http://amaderftp.net",
+      "name": "amaderftp.net",
+      "provider": "Amaderftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.activenetworkbd.com",
+      "name": "www.activenetworkbd.com",
+      "provider": "Activenetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bossbd.net",
+      "name": "www.bossbd.net",
+      "provider": "Bossbd",
+      "type": "web"
+    },
+    {
+      "url": "http://bossbd.live",
+      "name": "bossbd.live",
+      "provider": "Bossbd",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn.bossbd.net",
+      "name": "cdn.bossbd.net",
+      "provider": "Bossbd",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn1.bossbd.net",
+      "name": "cdn1.bossbd.net",
+      "provider": "Bossbd",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn2.bossbd.net",
+      "name": "cdn2.bossbd.net",
+      "provider": "Bossbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bdlan.net",
+      "name": "www.bdlan.net",
+      "provider": "Bdlan",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bitnetbd.com",
+      "name": "www.bitnetbd.com",
+      "provider": "Bitnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bdspeed.com",
+      "name": "www.bdspeed.com",
+      "provider": "Bdspeed",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bolmovies.com",
+      "name": "www.bolmovies.com",
+      "provider": "Bolmovies",
+      "type": "web"
+    },
+    {
+      "url": "http://103.112.63.21",
+      "name": "103.112.63.21",
+      "provider": "Bolmovies",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.btekinternet.com",
+      "name": "www.btekinternet.com",
+      "provider": "Btekinternet",
+      "type": "web"
+    },
+    {
+      "url": "https://bonsaihd.live",
+      "name": "bonsaihd.live",
+      "provider": "Bonsaihd",
+      "type": "web"
+    },
+    {
+      "url": "https://basnetbd.com",
+      "name": "basnetbd.com",
+      "provider": "Basnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.87.212.46",
+      "name": "103.87.212.46",
+      "provider": "Basnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://10.20.30.40",
+      "name": "10.20.30.40",
+      "provider": "Basnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://movie.basnetbd.com",
+      "name": "movie.basnetbd.com",
+      "provider": "Basnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.bolbd.net",
+      "name": "www.bolbd.net",
+      "provider": "Bolbd",
+      "type": "web"
+    },
+    {
+      "url": "http://mars.bolbd.net",
+      "name": "mars.bolbd.net",
+      "provider": "Bolbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bograonlinebd.com",
+      "name": "www.bograonlinebd.com",
+      "provider": "Bograonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.beeflix.biz",
+      "name": "www.beeflix.biz",
+      "provider": "Beeflix",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bmnetworkbd.tk",
+      "name": "www.bmnetworkbd.tk",
+      "provider": "Bmnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://bondhuitbd.com",
+      "name": "bondhuitbd.com",
+      "provider": "Bondhuitbd",
+      "type": "web"
+    },
+    {
+      "url": "http://bmitbd.com",
+      "name": "bmitbd.com",
+      "provider": "Bmitbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bhuiyan-online.com",
+      "name": "www.bhuiyan-online.com",
+      "provider": "Bhuiyan-online",
+      "type": "web"
+    },
+    {
+      "url": "http://bdplex.net",
+      "name": "bdplex.net",
+      "provider": "Bdplex",
+      "type": "web"
+    },
+    {
+      "url": "https://www.businesszone.com.bd",
+      "name": "www.businesszone.com.bd",
+      "provider": "Businesszone",
+      "type": "web"
+    },
+    {
+      "url": "http://103.117.229.242",
+      "name": "103.117.229.242",
+      "provider": "Businesszone",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.117.229.242/Data",
+      "name": "103.117.229.242/Data",
+      "provider": "Businesszone",
+      "type": "ftp"
+    },
+    {
+      "url": "http://bdcineplex.com",
+      "name": "bdcineplex.com",
+      "provider": "Bdcineplex",
+      "type": "web"
+    },
+    {
+      "url": "https://bdflixlive.com",
+      "name": "bdflixlive.com",
+      "provider": "Bdflixlive",
+      "type": "web"
+    },
+    {
+      "url": "https://bhalukabroadband.com",
+      "name": "bhalukabroadband.com",
+      "provider": "Bhalukabroadband",
+      "type": "web"
+    },
+    {
+      "url": "https://binimoynet.com",
+      "name": "binimoynet.com",
+      "provider": "Binimoynet",
+      "type": "web"
+    },
+    {
+      "url": "http://www.beaconlink.net",
+      "name": "www.beaconlink.net",
+      "provider": "Beaconlink",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bdminternet.com",
+      "name": "www.bdminternet.com",
+      "provider": "Bdminternet",
+      "type": "web"
+    },
+    {
+      "url": "https://www.cmclbd.com",
+      "name": "www.cmclbd.com",
+      "provider": "Cmclbd",
+      "type": "web"
+    },
+    {
+      "url": "http://tokis.xyz",
+      "name": "tokis.xyz",
+      "provider": "Tokis",
+      "type": "web"
+    },
+    {
+      "url": "http://www.sktraders.net",
+      "name": "www.sktraders.net",
+      "provider": "Sktraders",
+      "type": "web"
+    },
+    {
+      "url": "http://103.81.104.98",
+      "name": "103.81.104.98",
+      "provider": "Sktraders",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.81.104.98/DATA/NAS1",
+      "name": "103.81.104.98/DATA/NAS1",
+      "provider": "Sktraders",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cinemabazar.net",
+      "name": "cinemabazar.net",
+      "provider": "Cinemabazar",
+      "type": "web"
+    },
+    {
+      "url": "http://cinemabazar.net/DATA/NAS1",
+      "name": "cinemabazar.net/DATA/NAS1",
+      "provider": "Cinemabazar",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.cinebioscope.com",
+      "name": "www.cinebioscope.com",
+      "provider": "Cinebioscope",
+      "type": "web"
+    },
+    {
+      "url": "https://www.cybernetbd.com",
+      "name": "www.cybernetbd.com",
+      "provider": "Cybernetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://cnetworkbd.net",
+      "name": "cnetworkbd.net",
+      "provider": "Cnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.mycybernest.com",
+      "name": "www.mycybernest.com",
+      "provider": "Mycybernest",
+      "type": "web"
+    },
+    {
+      "url": "https://cueclub.com.bd",
+      "name": "cueclub.com.bd",
+      "provider": "Cueclub",
+      "type": "web"
+    },
+    {
+      "url": "https://crazynetbd.com",
+      "name": "crazynetbd.com",
+      "provider": "Crazynetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://citynetbd.com",
+      "name": "citynetbd.com",
+      "provider": "Citynetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.citynet.live",
+      "name": "www.citynet.live",
+      "provider": "Citynet",
+      "type": "web"
+    },
+    {
+      "url": "http://www.ctgtel.net",
+      "name": "www.ctgtel.net",
+      "provider": "Ctgtel",
+      "type": "web"
+    },
+    {
+      "url": "http://cnc.net.bd",
+      "name": "cnc.net.bd",
+      "provider": "Cnc",
+      "type": "web"
+    },
+    {
+      "url": "https://clickonlinebd.com",
+      "name": "clickonlinebd.com",
+      "provider": "Clickonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.cybernetcommunications.net",
+      "name": "www.cybernetcommunications.net",
+      "provider": "Cybernetcommunications",
+      "type": "web"
+    },
+    {
+      "url": "http://creativait.net",
+      "name": "creativait.net",
+      "provider": "Creativait",
+      "type": "web"
+    },
+    {
+      "url": "http://10.10.10.10",
+      "name": "10.10.10.10",
+      "provider": "Creativait",
+      "type": "ftp"
+    },
+    {
+      "url": "http://cineflixbd.xyz",
+      "name": "cineflixbd.xyz",
+      "provider": "Cineflixbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.cygnusall.com",
+      "name": "www.cygnusall.com",
+      "provider": "Cygnusall",
+      "type": "web"
+    },
+    {
+      "url": "http://cns.net.bd",
+      "name": "cns.net.bd",
+      "provider": "Cns",
+      "type": "web"
+    },
+    {
+      "url": "https://www.daulatpuronline.com",
+      "name": "www.daulatpuronline.com",
+      "provider": "Daulatpuronline",
+      "type": "web"
+    },
+    {
+      "url": "http://khulnaplex.net",
+      "name": "khulnaplex.net",
+      "provider": "Khulnaplex",
+      "type": "web"
+    },
+    {
+      "url": "http://khulnaplex.net/Data",
+      "name": "khulnaplex.net/Data",
+      "provider": "Khulnaplex",
+      "type": "ftp"
+    },
+    {
+      "url": "https://dreamnetbd.com",
+      "name": "dreamnetbd.com",
+      "provider": "Dreamnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://deshonlinebd.com",
+      "name": "deshonlinebd.com",
+      "provider": "Deshonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.dhakadownload.com",
+      "name": "www.dhakadownload.com",
+      "provider": "Dhakadownload",
+      "type": "web"
+    },
+    {
+      "url": "http://dhakaiptv.com",
+      "name": "dhakaiptv.com",
+      "provider": "Dhakaiptv",
+      "type": "web"
+    },
+    {
+      "url": "https://digitalbroadband.com.bd",
+      "name": "digitalbroadband.com.bd",
+      "provider": "Digitalbroadband",
+      "type": "web"
+    },
+    {
+      "url": "http://103.96.104.14",
+      "name": "103.96.104.14",
+      "provider": "Digitalbroadband",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.96.104.14/d_drive",
+      "name": "103.96.104.14/d_drive",
+      "provider": "Digitalbroadband",
+      "type": "ftp"
+    },
+    {
+      "url": "http://diginetbd.net",
+      "name": "diginetbd.net",
+      "provider": "Diginetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://ditbd.net",
+      "name": "ditbd.net",
+      "provider": "Ditbd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.27.100.3",
+      "name": "172.27.100.3",
+      "provider": "Ditbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.dreamonlinebd.com",
+      "name": "www.dreamonlinebd.com",
+      "provider": "Dreamonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.dolyitcorner.net",
+      "name": "www.dolyitcorner.net",
+      "provider": "Dolyitcorner",
+      "type": "web"
+    },
+    {
+      "url": "http://172.17.17.17",
+      "name": "172.17.17.17",
+      "provider": "Dolyitcorner",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.durantonetworkbd.com",
+      "name": "www.durantonetworkbd.com",
+      "provider": "Durantonetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.didarit.com",
+      "name": "www.didarit.com",
+      "provider": "Didarit",
+      "type": "web"
+    },
+    {
+      "url": "https://dekhobd.com",
+      "name": "dekhobd.com",
+      "provider": "Dekhobd",
+      "type": "web"
+    },
+    {
+      "url": "http://dlnsbd.net",
+      "name": "dlnsbd.net",
+      "provider": "Dlnsbd",
+      "type": "web"
+    },
+    {
+      "url": "http://evolutionnet.info",
+      "name": "evolutionnet.info",
+      "provider": "Evolutionnet",
+      "type": "web"
+    },
+    {
+      "url": "http://www.evonetbd.com",
+      "name": "www.evonetbd.com",
+      "provider": "Evonetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.25.120.118",
+      "name": "103.25.120.118",
+      "provider": "Evonetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://fs.evonetbd.com",
+      "name": "fs.evonetbd.com",
+      "provider": "Evonetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://easyitbd.com",
+      "name": "easyitbd.com",
+      "provider": "Easyitbd",
+      "type": "web"
+    },
+    {
+      "url": "http://exploreonlinebd.net",
+      "name": "exploreonlinebd.net",
+      "provider": "Exploreonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.222.20.150",
+      "name": "103.222.20.150",
+      "provider": "Exploreonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.222.20.150/ftpdata",
+      "name": "103.222.20.150/ftpdata",
+      "provider": "Exploreonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.ectlink.com",
+      "name": "www.ectlink.com",
+      "provider": "Ectlink",
+      "type": "web"
+    },
+    {
+      "url": "http://download.ectlink.com",
+      "name": "download.ectlink.com",
+      "provider": "Ectlink",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.enjoy.net.bd",
+      "name": "www.enjoy.net.bd",
+      "provider": "Enjoy",
+      "type": "web"
+    },
+    {
+      "url": "http://103.115.82.254",
+      "name": "103.115.82.254",
+      "provider": "Enjoy",
+      "type": "ftp"
+    },
+    {
+      "url": "https://ekushe.net",
+      "name": "ekushe.net",
+      "provider": "Ekushe",
+      "type": "web"
+    },
+    {
+      "url": "http://10.100.100.2:8096",
+      "name": "10.100.100.2:8096",
+      "provider": "Ekushe",
+      "type": "emby"
+    },
+    {
+      "url": "http://ezisbd.com",
+      "name": "ezisbd.com",
+      "provider": "Ezisbd",
+      "type": "web"
+    },
+    {
+      "url": "http://43.246.200.82:8081",
+      "name": "43.246.200.82:8081",
+      "provider": "Ezisbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://extremenetbd.com",
+      "name": "extremenetbd.com",
+      "provider": "Extremenetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://203.96.191.70",
+      "name": "203.96.191.70",
+      "provider": "Extremenetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://203.96.191.70/Data",
+      "name": "203.96.191.70/Data",
+      "provider": "Extremenetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://plexbd.net",
+      "name": "plexbd.net",
+      "provider": "Plexbd",
+      "type": "web"
+    },
+    {
+      "url": "http://plexbd.net/Data",
+      "name": "plexbd.net/Data",
+      "provider": "Plexbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.evillagectg.com",
+      "name": "www.evillagectg.com",
+      "provider": "Evillagectg",
+      "type": "web"
+    },
+    {
+      "url": "http://www.ctgflix.com",
+      "name": "www.ctgflix.com",
+      "provider": "Ctgflix",
+      "type": "web"
+    },
+    {
+      "url": "http://fs.evillagectg.com",
+      "name": "fs.evillagectg.com",
+      "provider": "Evillagectg",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.ctghall.com",
+      "name": "www.ctghall.com",
+      "provider": "Ctghall",
+      "type": "web"
+    },
+    {
+      "url": "http://www.ctgstream.com",
+      "name": "www.ctgstream.com",
+      "provider": "Ctgstream",
+      "type": "web"
+    },
+    {
+      "url": "http://www.reignict.com.bd",
+      "name": "www.reignict.com.bd",
+      "provider": "Reignict",
+      "type": "web"
+    },
+    {
+      "url": "http://funtimebd.com",
+      "name": "funtimebd.com",
+      "provider": "Funtimebd",
+      "type": "web"
+    },
+    {
+      "url": "http://ftp.com.bd",
+      "name": "ftp.com.bd",
+      "provider": "Ftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.furiousnet.net",
+      "name": "www.furiousnet.net",
+      "provider": "Furiousnet",
+      "type": "web"
+    },
+    {
+      "url": "http://media.furiousnet.net",
+      "name": "media.furiousnet.net",
+      "provider": "Furiousnet",
+      "type": "ftp"
+    },
+    {
+      "url": "https://fastnetbd.com",
+      "name": "fastnetbd.com",
+      "provider": "Fastnetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://fastplex.net",
+      "name": "fastplex.net",
+      "provider": "Fastplex",
+      "type": "web"
+    },
+    {
+      "url": "http://www.fnetctg.com/index.php/bdix-list",
+      "name": "www.fnetctg.com/index.php/bdix-list",
+      "provider": "Fnetctg",
+      "type": "ftp"
+    },
+    {
+      "url": "http://flashnetbd.com",
+      "name": "flashnetbd.com",
+      "provider": "Flashnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.focusonlinectg.com",
+      "name": "www.focusonlinectg.com",
+      "provider": "Focusonlinectg",
+      "type": "web"
+    },
+    {
+      "url": "https://fti.com.bd",
+      "name": "fti.com.bd",
+      "provider": "Fti",
+      "type": "web"
+    },
+    {
+      "url": "http://www.freedomonlinebd.com",
+      "name": "www.freedomonlinebd.com",
+      "provider": "Freedomonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://f4internetsolution.com",
+      "name": "f4internetsolution.com",
+      "provider": "F4internetsolution",
+      "type": "web"
+    },
+    {
+      "url": "http://172.2.2.2",
+      "name": "172.2.2.2",
+      "provider": "F4internetsolution",
+      "type": "ftp"
+    },
+    {
+      "url": "http://f4cineplex.myftp.org",
+      "name": "f4cineplex.myftp.org",
+      "provider": "Myftp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.fnfbd.net",
+      "name": "www.fnfbd.net",
+      "provider": "Fnfbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.friendsonlinebd.com",
+      "name": "www.friendsonlinebd.com",
+      "provider": "Friendsonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://fastnetbd.org",
+      "name": "fastnetbd.org",
+      "provider": "Fastnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://192.168.100.5/fastnet",
+      "name": "192.168.100.5/fastnet",
+      "provider": "Fastnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://filmguro.site",
+      "name": "filmguro.site",
+      "provider": "Filmguro",
+      "type": "web"
+    },
+    {
+      "url": "https://www.flynetbd.com",
+      "name": "www.flynetbd.com",
+      "provider": "Flynetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.fastcyber.net",
+      "name": "www.fastcyber.net",
+      "provider": "Fastcyber",
+      "type": "web"
+    },
+    {
+      "url": "https://www.flixjar.com",
+      "name": "www.flixjar.com",
+      "provider": "Flixjar",
+      "type": "web"
+    },
+    {
+      "url": "http://www.bbl.net.bd",
+      "name": "www.bbl.net.bd",
+      "provider": "Bbl",
+      "type": "web"
+    },
+    {
+      "url": "http://www.prisma.net.bd",
+      "name": "www.prisma.net.bd",
+      "provider": "Prisma",
+      "type": "web"
+    },
+    {
+      "url": "http://124.6.236.254",
+      "name": "124.6.236.254",
+      "provider": "Prisma",
+      "type": "ftp"
+    },
+    {
+      "url": "http://124.6.236.254/ftpdata1",
+      "name": "124.6.236.254/ftpdata1",
+      "provider": "Prisma",
+      "type": "ftp"
+    },
+    {
+      "url": "http://124.6.236.254:8080",
+      "name": "124.6.236.254:8080",
+      "provider": "Prisma",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.freemediabd.com",
+      "name": "www.freemediabd.com",
+      "provider": "Freemediabd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.futurenet-bd.com",
+      "name": "www.futurenet-bd.com",
+      "provider": "Futurenet-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://fcnetbd.net",
+      "name": "fcnetbd.net",
+      "provider": "Fcnetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://frcbd.xyz",
+      "name": "frcbd.xyz",
+      "provider": "Frcbd",
+      "type": "web"
+    },
+    {
+      "url": "https://frcbd.net",
+      "name": "frcbd.net",
+      "provider": "Frcbd",
+      "type": "web"
+    },
+    {
+      "url": "http://s-flix.live",
+      "name": "s-flix.live",
+      "provider": "S-flix",
+      "type": "web"
+    },
+    {
+      "url": "http://play.s-flix.live",
+      "name": "play.s-flix.live",
+      "provider": "S-flix",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn.s-flix.live",
+      "name": "cdn.s-flix.live",
+      "provider": "S-flix",
+      "type": "web"
+    },
+    {
+      "url": "http://fiberx.me",
+      "name": "fiberx.me",
+      "provider": "Fiberx",
+      "type": "web"
+    },
+    {
+      "url": "https://fmnetworks.net",
+      "name": "fmnetworks.net",
+      "provider": "Fmnetworks",
+      "type": "web"
+    },
+    {
+      "url": "http://www.fnet.com.bd",
+      "name": "www.fnet.com.bd",
+      "provider": "Fnet",
+      "type": "web"
+    },
+    {
+      "url": "http://gpisp.net",
+      "name": "gpisp.net",
+      "provider": "Gpisp",
+      "type": "web"
+    },
+    {
+      "url": "http://greetingsonlinebd.com",
+      "name": "greetingsonlinebd.com",
+      "provider": "Greetingsonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.133.175.242/80",
+      "name": "103.133.175.242/80",
+      "provider": "Greetingsonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.133.175.242/80/wp-content",
+      "name": "103.133.175.242/80/wp-content",
+      "provider": "Greetingsonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://103.91.53.248",
+      "name": "103.91.53.248",
+      "provider": "Greetingsonlinebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://ghatailonline.net",
+      "name": "ghatailonline.net",
+      "provider": "Ghatailonline",
+      "type": "web"
+    },
+    {
+      "url": "https://www.gnetworkbd.com",
+      "name": "www.gnetworkbd.com",
+      "provider": "Gnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.gnetinternet.com",
+      "name": "www.gnetinternet.com",
+      "provider": "Gnetinternet",
+      "type": "web"
+    },
+    {
+      "url": "https://gk-network.net",
+      "name": "gk-network.net",
+      "provider": "Gk-network",
+      "type": "web"
+    },
+    {
+      "url": "https://gazipurns.com",
+      "name": "gazipurns.com",
+      "provider": "Gazipurns",
+      "type": "web"
+    },
+    {
+      "url": "https://greenbytes.net.bd",
+      "name": "greenbytes.net.bd",
+      "provider": "Greenbytes",
+      "type": "web"
+    },
+    {
+      "url": "https://greenbytes.net.bd/ftp-bdix",
+      "name": "greenbytes.net.bd/ftp-bdix",
+      "provider": "Greenbytes",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.gungchil.net",
+      "name": "www.gungchil.net",
+      "provider": "Gungchil",
+      "type": "web"
+    },
+    {
+      "url": "http://www.geniousnet.com",
+      "name": "www.geniousnet.com",
+      "provider": "Geniousnet",
+      "type": "web"
+    },
+    {
+      "url": "http://downloads.geniousnet.com",
+      "name": "downloads.geniousnet.com",
+      "provider": "Geniousnet",
+      "type": "web"
+    },
+    {
+      "url": "http://bdix.hitechisp.com",
+      "name": "bdix.hitechisp.com",
+      "provider": "Hitechisp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.hkonline.com.bd",
+      "name": "www.hkonline.com.bd",
+      "provider": "Hkonline",
+      "type": "web"
+    },
+    {
+      "url": "https://www.bdconnectctg.net",
+      "name": "www.bdconnectctg.net",
+      "provider": "Bdconnectctg",
+      "type": "web"
+    },
+    {
+      "url": "https://hasikhushi.net",
+      "name": "hasikhushi.net",
+      "provider": "Hasikhushi",
+      "type": "web"
+    },
+    {
+      "url": "http://www.hilsabd.com",
+      "name": "www.hilsabd.com",
+      "provider": "Hilsabd",
+      "type": "web"
+    },
+    {
+      "url": "http://203.190.8.210",
+      "name": "203.190.8.210",
+      "provider": "Hilsabd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://hostxy.com",
+      "name": "hostxy.com",
+      "provider": "Hostxy",
+      "type": "web"
+    },
+    {
+      "url": "https://helloitbd.com",
+      "name": "helloitbd.com",
+      "provider": "Helloitbd",
+      "type": "web"
+    },
+    {
+      "url": "https://helloitbd.com/category/all-server-list",
+      "name": "helloitbd.com/category/all-server-list",
+      "provider": "Helloitbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.156.66.45",
+      "name": "103.156.66.45",
+      "provider": "Helloitbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.156.66.58/m4t1",
+      "name": "103.156.66.58/m4t1",
+      "provider": "Helloitbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://halum.net",
+      "name": "halum.net",
+      "provider": "Halum",
+      "type": "web"
+    },
+    {
+      "url": "http://www.net2bd.com",
+      "name": "www.net2bd.com",
+      "provider": "Net2bd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.itbasebd.com",
+      "name": "www.itbasebd.com",
+      "provider": "Itbasebd",
+      "type": "web"
+    },
+    {
+      "url": "http://imonlineisp.net",
+      "name": "imonlineisp.net",
+      "provider": "Imonlineisp",
+      "type": "web"
+    },
+    {
+      "url": "http://www.intrepidbd.com",
+      "name": "www.intrepidbd.com",
+      "provider": "Intrepidbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.203.94.1:8065",
+      "name": "103.203.94.1:8065",
+      "provider": "Intrepidbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://inoxbd.com",
+      "name": "inoxbd.com",
+      "provider": "Inoxbd",
+      "type": "web"
+    },
+    {
+      "url": "https://ismart.net.bd",
+      "name": "ismart.net.bd",
+      "provider": "Ismart",
+      "type": "web"
+    },
+    {
+      "url": "https://internetzonebd.com",
+      "name": "internetzonebd.com",
+      "provider": "Internetzonebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.itmandcommunication.com",
+      "name": "www.itmandcommunication.com",
+      "provider": "Itmandcommunication",
+      "type": "web"
+    },
+    {
+      "url": "http://103.151.118.10",
+      "name": "103.151.118.10",
+      "provider": "Itmandcommunication",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.icommunicationbd.net",
+      "name": "www.icommunicationbd.net",
+      "provider": "Icommunicationbd",
+      "type": "web"
+    },
+    {
+      "url": "https://iboxbd.club",
+      "name": "iboxbd.club",
+      "provider": "Iboxbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.135.208.2",
+      "name": "103.135.208.2",
+      "provider": "Iboxbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.135.208.2/Data",
+      "name": "103.135.208.2/Data",
+      "provider": "Iboxbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://iboxbd.online",
+      "name": "iboxbd.online",
+      "provider": "Iboxbd",
+      "type": "web"
+    },
+    {
+      "url": "http://iboxbd.online/Data",
+      "name": "iboxbd.online/Data",
+      "provider": "Iboxbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://ifra.network",
+      "name": "ifra.network",
+      "provider": "Ifra",
+      "type": "web"
+    },
+    {
+      "url": "http://103.110.126.146:8000",
+      "name": "103.110.126.146:8000",
+      "provider": "Ifra",
+      "type": "ftp"
+    },
+    {
+      "url": "https://infolinkbd.com",
+      "name": "infolinkbd.com",
+      "provider": "Infolinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://itnetzone.com",
+      "name": "itnetzone.com",
+      "provider": "Itnetzone",
+      "type": "web"
+    },
+    {
+      "url": "http://192.168.100.16",
+      "name": "192.168.100.16",
+      "provider": "Itnetzone",
+      "type": "ftp"
+    },
+    {
+      "url": "http://192.168.100.16:8096",
+      "name": "192.168.100.16:8096",
+      "provider": "Itnetzone",
+      "type": "emby"
+    },
+    {
+      "url": "http://ibds.net.bd",
+      "name": "ibds.net.bd",
+      "provider": "Ibds",
+      "type": "web"
+    },
+    {
+      "url": "http://chayachobi.net",
+      "name": "chayachobi.net",
+      "provider": "Chayachobi",
+      "type": "web"
+    },
+    {
+      "url": "https://www.itcnbd.com",
+      "name": "www.itcnbd.com",
+      "provider": "Itcnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://bdix.itcnbd.com",
+      "name": "bdix.itcnbd.com",
+      "provider": "Itcnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.ibd.net.bd",
+      "name": "www.ibd.net.bd",
+      "provider": "Ibd",
+      "type": "web"
+    },
+    {
+      "url": "https://inetisp.net",
+      "name": "inetisp.net",
+      "provider": "Inetisp",
+      "type": "web"
+    },
+    {
+      "url": "https://infointernetservice.com",
+      "name": "infointernetservice.com",
+      "provider": "Infointernetservice",
+      "type": "web"
+    },
+    {
+      "url": "http://10.28.22.2",
+      "name": "10.28.22.2",
+      "provider": "Infointernetservice",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.iranetbd.com",
+      "name": "www.iranetbd.com",
+      "provider": "Iranetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://ccnetbd.com",
+      "name": "ccnetbd.com",
+      "provider": "Ccnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://162.12.215.254",
+      "name": "162.12.215.254",
+      "provider": "Ccnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.jannatmirinternetservice.com",
+      "name": "www.jannatmirinternetservice.com",
+      "provider": "Jannatmirinternetservice",
+      "type": "web"
+    },
+    {
+      "url": "https://jonycable.com",
+      "name": "jonycable.com",
+      "provider": "Jonycable",
+      "type": "web"
+    },
+    {
+      "url": "https://www.jananibd.com",
+      "name": "www.jananibd.com",
+      "provider": "Jananibd",
+      "type": "web"
+    },
+    {
+      "url": "http://jakianetbd.com",
+      "name": "jakianetbd.com",
+      "provider": "Jakianetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://jhenuk.net",
+      "name": "jhenuk.net",
+      "provider": "Jhenuk",
+      "type": "web"
+    },
+    {
+      "url": "https://khulnanet24.com",
+      "name": "khulnanet24.com",
+      "provider": "Khulnanet24",
+      "type": "web"
+    },
+    {
+      "url": "http://www.kazinetwork.net",
+      "name": "www.kazinetwork.net",
+      "provider": "Kazinetwork",
+      "type": "web"
+    },
+    {
+      "url": "https://kbnonlinebd.net",
+      "name": "kbnonlinebd.net",
+      "provider": "Kbnonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://karsannet.com",
+      "name": "karsannet.com",
+      "provider": "Karsannet",
+      "type": "web"
+    },
+    {
+      "url": "http://103.219.232.190",
+      "name": "103.219.232.190",
+      "provider": "Karsannet",
+      "type": "ftp"
+    },
+    {
+      "url": "https://kmnbd.net",
+      "name": "kmnbd.net",
+      "provider": "Kmnbd",
+      "type": "web"
+    },
+    {
+      "url": "https://kawsarit.net",
+      "name": "kawsarit.net",
+      "provider": "Kawsarit",
+      "type": "web"
+    },
+    {
+      "url": "https://kloud.com.bd",
+      "name": "kloud.com.bd",
+      "provider": "Kloud",
+      "type": "web"
+    },
+    {
+      "url": "http://movies.kloud.com.bd",
+      "name": "movies.kloud.com.bd",
+      "provider": "Kloud",
+      "type": "ftp"
+    },
+    {
+      "url": "http://leadtechnologybd.com",
+      "name": "leadtechnologybd.com",
+      "provider": "Leadtechnologybd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.linkinnet.net",
+      "name": "www.linkinnet.net",
+      "provider": "Linkinnet",
+      "type": "web"
+    },
+    {
+      "url": "https://www.lizaonlinebd.com",
+      "name": "www.lizaonlinebd.com",
+      "provider": "Lizaonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.cinehub24.com",
+      "name": "www.cinehub24.com",
+      "provider": "Cinehub24",
+      "type": "web"
+    },
+    {
+      "url": "https://masternetbd.net",
+      "name": "masternetbd.net",
+      "provider": "Masternetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://mediaonlinebd.com",
+      "name": "mediaonlinebd.com",
+      "provider": "Mediaonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://mymoviebazar.net",
+      "name": "mymoviebazar.net",
+      "provider": "Mymoviebazar",
+      "type": "web"
+    },
+    {
+      "url": "http://mymoviebazar.net/Data",
+      "name": "mymoviebazar.net/Data",
+      "provider": "Mymoviebazar",
+      "type": "ftp"
+    },
+    {
+      "url": "http://mybdplex.com",
+      "name": "mybdplex.com",
+      "provider": "Mybdplex",
+      "type": "web"
+    },
+    {
+      "url": "http://mathanosto.top",
+      "name": "mathanosto.top",
+      "provider": "Mathanosto",
+      "type": "web"
+    },
+    {
+      "url": "http://mathanosto.top/Data",
+      "name": "mathanosto.top/Data",
+      "provider": "Mathanosto",
+      "type": "ftp"
+    },
+    {
+      "url": "http://movieboxbd.com",
+      "name": "movieboxbd.com",
+      "provider": "Movieboxbd",
+      "type": "web"
+    },
+    {
+      "url": "http://bd-networks.com",
+      "name": "bd-networks.com",
+      "provider": "Bd-networks",
+      "type": "web"
+    },
+    {
+      "url": "http://midiplex.net",
+      "name": "midiplex.net",
+      "provider": "Midiplex",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn.midiplex.net",
+      "name": "cdn.midiplex.net",
+      "provider": "Midiplex",
+      "type": "web"
+    },
+    {
+      "url": "https://moviescounterhd.club",
+      "name": "moviescounterhd.club",
+      "provider": "Moviescounterhd",
+      "type": "web"
+    },
+    {
+      "url": "https://msmonlinebd.com",
+      "name": "msmonlinebd.com",
+      "provider": "Msmonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.citechco.net",
+      "name": "www.citechco.net",
+      "provider": "Citechco",
+      "type": "web"
+    },
+    {
+      "url": "http://203.83.177.225",
+      "name": "203.83.177.225",
+      "provider": "Citechco",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.movieserver.net",
+      "name": "www.movieserver.net",
+      "provider": "Movieserver",
+      "type": "web"
+    },
+    {
+      "url": "https://mlwbd.mobi",
+      "name": "mlwbd.mobi",
+      "provider": "Mlwbd",
+      "type": "web"
+    },
+    {
+      "url": "http://mtbsl.com",
+      "name": "mtbsl.com",
+      "provider": "Mtbsl",
+      "type": "web"
+    },
+    {
+      "url": "http://bdix.mtbsl.com/server.php",
+      "name": "bdix.mtbsl.com/server.php",
+      "provider": "Mtbsl",
+      "type": "ftp"
+    },
+    {
+      "url": "https://moghbazar.net",
+      "name": "moghbazar.net",
+      "provider": "Moghbazar",
+      "type": "web"
+    },
+    {
+      "url": "http://mybdix.com",
+      "name": "mybdix.com",
+      "provider": "Mybdix",
+      "type": "web"
+    },
+    {
+      "url": "http://mahirbd.com",
+      "name": "mahirbd.com",
+      "provider": "Mahirbd",
+      "type": "web"
+    },
+    {
+      "url": "http://45.118.247.178",
+      "name": "45.118.247.178",
+      "provider": "Mahirbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://45.118.247.178:8096",
+      "name": "45.118.247.178:8096",
+      "provider": "Mahirbd",
+      "type": "emby"
+    },
+    {
+      "url": "http://www.mariumnetwork.com",
+      "name": "www.mariumnetwork.com",
+      "provider": "Mariumnetwork",
+      "type": "web"
+    },
+    {
+      "url": "https://aniknetwork.net",
+      "name": "aniknetwork.net",
+      "provider": "Aniknetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://medialink24.net",
+      "name": "medialink24.net",
+      "provider": "Medialink24",
+      "type": "web"
+    },
+    {
+      "url": "http://mirpurnetbd.com",
+      "name": "mirpurnetbd.com",
+      "provider": "Mirpurnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.mixonbd.com",
+      "name": "www.mixonbd.com",
+      "provider": "Mixonbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.megaplexbd.com",
+      "name": "www.megaplexbd.com",
+      "provider": "Megaplexbd",
+      "type": "web"
+    },
+    {
+      "url": "https://movitime.online",
+      "name": "movitime.online",
+      "provider": "Movitime",
+      "type": "web"
+    },
+    {
+      "url": "http://micnbd.com",
+      "name": "micnbd.com",
+      "provider": "Micnbd",
+      "type": "web"
+    },
+    {
+      "url": "https://moviefreak.xyz",
+      "name": "moviefreak.xyz",
+      "provider": "Moviefreak",
+      "type": "web"
+    },
+    {
+      "url": "http://www.mirpurtech.com",
+      "name": "www.mirpurtech.com",
+      "provider": "Mirpurtech",
+      "type": "web"
+    },
+    {
+      "url": "https://www.manikdicommunication.com",
+      "name": "www.manikdicommunication.com",
+      "provider": "Manikdicommunication",
+      "type": "web"
+    },
+    {
+      "url": "https://www.mayasoftbd.net",
+      "name": "www.mayasoftbd.net",
+      "provider": "Mayasoftbd",
+      "type": "web"
+    },
+    {
+      "url": "http://nsolution.com.bd",
+      "name": "nsolution.com.bd",
+      "provider": "Nsolution",
+      "type": "web"
+    },
+    {
+      "url": "http://103.144.200.9",
+      "name": "103.144.200.9",
+      "provider": "Nsolution",
+      "type": "ftp"
+    },
+    {
+      "url": "http://moviemela.xyz",
+      "name": "moviemela.xyz",
+      "provider": "Moviemela",
+      "type": "web"
+    },
+    {
+      "url": "http://www.mtnbd.net",
+      "name": "www.mtnbd.net",
+      "provider": "Mtnbd",
+      "type": "web"
+    },
+    {
+      "url": "https://megaspeednet.com",
+      "name": "megaspeednet.com",
+      "provider": "Megaspeednet",
+      "type": "web"
+    },
+    {
+      "url": "https://microlinkbd.net",
+      "name": "microlinkbd.net",
+      "provider": "Microlinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://manetbd.com",
+      "name": "manetbd.com",
+      "provider": "Manetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.metaphornet.net",
+      "name": "www.metaphornet.net",
+      "provider": "Metaphornet",
+      "type": "web"
+    },
+    {
+      "url": "https://www.netathomebd.com",
+      "name": "www.netathomebd.com",
+      "provider": "Netathomebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.netmatrixbd.com",
+      "name": "www.netmatrixbd.com",
+      "provider": "Netmatrixbd",
+      "type": "web"
+    },
+    {
+      "url": "https://netcomisp.net",
+      "name": "netcomisp.net",
+      "provider": "Netcomisp",
+      "type": "web"
+    },
+    {
+      "url": "http://103.85.160.7",
+      "name": "103.85.160.7",
+      "provider": "Netcomisp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://netcode.live/netcodemedia",
+      "name": "netcode.live/netcodemedia",
+      "provider": "Netcode",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.netinfobd.com",
+      "name": "www.netinfobd.com",
+      "provider": "Netinfobd",
+      "type": "web"
+    },
+    {
+      "url": "https://btekbd.com",
+      "name": "btekbd.com",
+      "provider": "Btekbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.novusnetworkbd.com",
+      "name": "www.novusnetworkbd.com",
+      "provider": "Novusnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://nbox.live",
+      "name": "nbox.live",
+      "provider": "Nbox",
+      "type": "web"
+    },
+    {
+      "url": "http://play.nbox.live",
+      "name": "play.nbox.live",
+      "provider": "Nbox",
+      "type": "web"
+    },
+    {
+      "url": "http://fs.nbox.live",
+      "name": "fs.nbox.live",
+      "provider": "Nbox",
+      "type": "ftp"
+    },
+    {
+      "url": "http://neefit.net",
+      "name": "neefit.net",
+      "provider": "Neefit",
+      "type": "web"
+    },
+    {
+      "url": "http://www.netonlinebd.com",
+      "name": "www.netonlinebd.com",
+      "provider": "Netonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://nowhdtime.com.bd",
+      "name": "nowhdtime.com.bd",
+      "provider": "Nowhdtime",
+      "type": "web"
+    },
+    {
+      "url": "https://netpoint.com.bd",
+      "name": "netpoint.com.bd",
+      "provider": "Netpoint",
+      "type": "web"
+    },
+    {
+      "url": "https://nis.com.bd",
+      "name": "nis.com.bd",
+      "provider": "Nis",
+      "type": "web"
+    },
+    {
+      "url": "http://nedasabd.net",
+      "name": "nedasabd.net",
+      "provider": "Nedasabd",
+      "type": "web"
+    },
+    {
+      "url": "http://nms-bd.com",
+      "name": "nms-bd.com",
+      "provider": "Nms-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://fs1.mebd.net",
+      "name": "fs1.mebd.net",
+      "provider": "Mebd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.56.6.6",
+      "name": "103.56.6.6",
+      "provider": "Mebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.56.6.6/Data",
+      "name": "103.56.6.6/Data",
+      "provider": "Mebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://jhakkas.live",
+      "name": "jhakkas.live",
+      "provider": "Jhakkas",
+      "type": "web"
+    },
+    {
+      "url": "http://jhakkas.live/Data",
+      "name": "jhakkas.live/Data",
+      "provider": "Jhakkas",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.neobd.net",
+      "name": "www.neobd.net",
+      "provider": "Neobd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.netplusbd.com",
+      "name": "www.netplusbd.com",
+      "provider": "Netplusbd",
+      "type": "web"
+    },
+    {
+      "url": "https://netcafe-bd.com",
+      "name": "netcafe-bd.com",
+      "provider": "Netcafe-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://100.100.100.100",
+      "name": "100.100.100.100",
+      "provider": "Netcafe-bd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.netconnectbd.com",
+      "name": "www.netconnectbd.com",
+      "provider": "Netconnectbd",
+      "type": "web"
+    },
+    {
+      "url": "http://nettig.net",
+      "name": "nettig.net",
+      "provider": "Nettig",
+      "type": "web"
+    },
+    {
+      "url": "http://www.ntech-bd.com",
+      "name": "www.ntech-bd.com",
+      "provider": "Ntech-bd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.onnosomoy.com:8096",
+      "name": "www.onnosomoy.com:8096",
+      "provider": "Onnosomoy",
+      "type": "emby"
+    },
+    {
+      "url": "https://onsbd.net",
+      "name": "onsbd.net",
+      "provider": "Onsbd",
+      "type": "web"
+    },
+    {
+      "url": "http://202.94.164.102",
+      "name": "202.94.164.102",
+      "provider": "Onsbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://osthir.net",
+      "name": "osthir.net",
+      "provider": "Osthir",
+      "type": "web"
+    },
+    {
+      "url": "https://www.okay.net.bd",
+      "name": "www.okay.net.bd",
+      "provider": "Okay",
+      "type": "web"
+    },
+    {
+      "url": "http://www.oitbd.net",
+      "name": "www.oitbd.net",
+      "provider": "Oitbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.oitbd.net/ftp",
+      "name": "www.oitbd.net/ftp",
+      "provider": "Oitbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.powernetbd.com",
+      "name": "www.powernetbd.com",
+      "provider": "Powernetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.plus.net.bd",
+      "name": "www.plus.net.bd",
+      "provider": "Plus",
+      "type": "web"
+    },
+    {
+      "url": "https://presslinkbd.net",
+      "name": "presslinkbd.net",
+      "provider": "Presslinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://the-potato.net",
+      "name": "the-potato.net",
+      "provider": "The-potato",
+      "type": "web"
+    },
+    {
+      "url": "http://172.16.16.16",
+      "name": "172.16.16.16",
+      "provider": "The-potato",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.poshbd.net",
+      "name": "www.poshbd.net",
+      "provider": "Poshbd",
+      "type": "web"
+    },
+    {
+      "url": "http://plusnetbd.com",
+      "name": "plusnetbd.com",
+      "provider": "Plusnetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://progotiit.com",
+      "name": "progotiit.com",
+      "provider": "Progotiit",
+      "type": "web"
+    },
+    {
+      "url": "https://quetelbd.net",
+      "name": "quetelbd.net",
+      "provider": "Quetelbd",
+      "type": "web"
+    },
+    {
+      "url": "http://quickonlineftp.com",
+      "name": "quickonlineftp.com",
+      "provider": "Quickonlineftp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.rainbownetworkbd.com",
+      "name": "www.rainbownetworkbd.com",
+      "provider": "Rainbownetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://cinemacity.live",
+      "name": "cinemacity.live",
+      "provider": "Cinemacity",
+      "type": "web"
+    },
+    {
+      "url": "http://www.roarzone.info",
+      "name": "www.roarzone.info",
+      "provider": "Roarzone",
+      "type": "web"
+    },
+    {
+      "url": "http://103.29.127.14",
+      "name": "103.29.127.14",
+      "provider": "Roarzone",
+      "type": "ftp"
+    },
+    {
+      "url": "http://media.zerointernet.net",
+      "name": "media.zerointernet.net",
+      "provider": "Zerointernet",
+      "type": "ftp"
+    },
+    {
+      "url": "http://media.radiantbd.com",
+      "name": "media.radiantbd.com",
+      "provider": "Radiantbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.radiantbd.net",
+      "name": "www.radiantbd.net",
+      "provider": "Radiantbd",
+      "type": "web"
+    },
+    {
+      "url": "http://cdn2.radiantbd.com",
+      "name": "cdn2.radiantbd.com",
+      "provider": "Radiantbd",
+      "type": "web"
+    },
+    {
+      "url": "https://realstation.live",
+      "name": "realstation.live",
+      "provider": "Realstation",
+      "type": "web"
+    },
+    {
+      "url": "https://rlcafenet.com",
+      "name": "rlcafenet.com",
+      "provider": "Rlcafenet",
+      "type": "web"
+    },
+    {
+      "url": "https://rsnetbd.com",
+      "name": "rsnetbd.com",
+      "provider": "Rsnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.251.247.147",
+      "name": "103.251.247.147",
+      "provider": "Rsnetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.rdconlinebd.net",
+      "name": "www.rdconlinebd.net",
+      "provider": "Rdconlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.runwaybroadband.com/media-server",
+      "name": "www.runwaybroadband.com/media-server",
+      "provider": "Runwaybroadband",
+      "type": "ftp"
+    },
+    {
+      "url": "http://lalbatte.net",
+      "name": "lalbatte.net",
+      "provider": "Lalbatte",
+      "type": "web"
+    },
+    {
+      "url": "http://rawshanarainternet.com",
+      "name": "rawshanarainternet.com",
+      "provider": "Rawshanarainternet",
+      "type": "web"
+    },
+    {
+      "url": "http://ftp.daffodilnet.com",
+      "name": "ftp.daffodilnet.com",
+      "provider": "Daffodilnet",
+      "type": "ftp"
+    },
+    {
+      "url": "https://rodelaonlinebd.com",
+      "name": "rodelaonlinebd.com",
+      "provider": "Rodelaonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.rahulenterprise.com.bd",
+      "name": "www.rahulenterprise.com.bd",
+      "provider": "Rahulenterprise",
+      "type": "web"
+    },
+    {
+      "url": "https://www.rapid.net.bd",
+      "name": "www.rapid.net.bd",
+      "provider": "Rapid",
+      "type": "web"
+    },
+    {
+      "url": "http://romsnetwork.com",
+      "name": "romsnetwork.com",
+      "provider": "Romsnetwork",
+      "type": "web"
+    },
+    {
+      "url": "https://ranonline.com.bd",
+      "name": "ranonline.com.bd",
+      "provider": "Ranonline",
+      "type": "web"
+    },
+    {
+      "url": "https://www.rainbowd.net",
+      "name": "www.rainbowd.net",
+      "provider": "Rainbowd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.3.226.208",
+      "name": "103.3.226.208",
+      "provider": "Rainbowd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.swiftnetbd.com",
+      "name": "www.swiftnetbd.com",
+      "provider": "Swiftnetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.sknetcity.com",
+      "name": "www.sknetcity.com",
+      "provider": "Sknetcity",
+      "type": "web"
+    },
+    {
+      "url": "https://slnisp.com.bd",
+      "name": "slnisp.com.bd",
+      "provider": "Slnisp",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skynetbd.net",
+      "name": "www.skynetbd.net",
+      "provider": "Skynetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://sbnetworkbd.com",
+      "name": "sbnetworkbd.com",
+      "provider": "Sbnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://sparklinkbd.com",
+      "name": "sparklinkbd.com",
+      "provider": "Sparklinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://sparknetbd.com",
+      "name": "sparknetbd.com",
+      "provider": "Sparknetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://ssonlinebd.com",
+      "name": "ssonlinebd.com",
+      "provider": "Ssonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://serverbd247.com",
+      "name": "serverbd247.com",
+      "provider": "Serverbd247",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skybizbd.net",
+      "name": "www.skybizbd.net",
+      "provider": "Skybizbd",
+      "type": "web"
+    },
+    {
+      "url": "https://supernetbd.com",
+      "name": "supernetbd.com",
+      "provider": "Supernetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://supernetsenbag.com",
+      "name": "supernetsenbag.com",
+      "provider": "Supernetsenbag",
+      "type": "web"
+    },
+    {
+      "url": "https://skynetonlinebd.net",
+      "name": "skynetonlinebd.net",
+      "provider": "Skynetonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.stargatebd.net",
+      "name": "www.stargatebd.net",
+      "provider": "Stargatebd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.27.27.1",
+      "name": "172.27.27.1",
+      "provider": "Stargatebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.27.27.1/data",
+      "name": "172.27.27.1/data",
+      "provider": "Stargatebd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://starplexbd.com",
+      "name": "starplexbd.com",
+      "provider": "Starplexbd",
+      "type": "web"
+    },
+    {
+      "url": "http://starplexbd.com/data",
+      "name": "starplexbd.com/data",
+      "provider": "Starplexbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://speednetkhulna.com",
+      "name": "speednetkhulna.com",
+      "provider": "Speednetkhulna",
+      "type": "web"
+    },
+    {
+      "url": "http://speed4you.net",
+      "name": "speed4you.net",
+      "provider": "Speed4you",
+      "type": "web"
+    },
+    {
+      "url": "http://www.smartnetltd.com",
+      "name": "www.smartnetltd.com",
+      "provider": "Smartnetltd",
+      "type": "web"
+    },
+    {
+      "url": "http://movie.smartnetltd.com",
+      "name": "movie.smartnetltd.com",
+      "provider": "Smartnetltd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://sisbdisp.com",
+      "name": "sisbdisp.com",
+      "provider": "Sisbdisp",
+      "type": "web"
+    },
+    {
+      "url": "http://103.115.253.254",
+      "name": "103.115.253.254",
+      "provider": "Sisbdisp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.115.253.254/Data",
+      "name": "103.115.253.254/Data",
+      "provider": "Sisbdisp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.102.0.3",
+      "name": "172.102.0.3",
+      "provider": "Sisbdisp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://speedo.net.bd",
+      "name": "speedo.net.bd",
+      "provider": "Speedo",
+      "type": "web"
+    },
+    {
+      "url": "https://snsbd.net",
+      "name": "snsbd.net",
+      "provider": "Snsbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.smiritycable.com",
+      "name": "www.smiritycable.com",
+      "provider": "Smiritycable",
+      "type": "web"
+    },
+    {
+      "url": "https://sardernet.com",
+      "name": "sardernet.com",
+      "provider": "Sardernet",
+      "type": "web"
+    },
+    {
+      "url": "http://smartonlinebd.com",
+      "name": "smartonlinebd.com",
+      "provider": "Smartonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "https://ctgoz.com",
+      "name": "ctgoz.com",
+      "provider": "Ctgoz",
+      "type": "web"
+    },
+    {
+      "url": "http://megaflix.tv",
+      "name": "megaflix.tv",
+      "provider": "Megaflix",
+      "type": "web"
+    },
+    {
+      "url": "http://sunlit.tv",
+      "name": "sunlit.tv",
+      "provider": "Sunlit",
+      "type": "web"
+    },
+    {
+      "url": "http://swapnonetwork.net",
+      "name": "swapnonetwork.net",
+      "provider": "Swapnonetwork",
+      "type": "web"
+    },
+    {
+      "url": "https://www.sync.net.bd",
+      "name": "www.sync.net.bd",
+      "provider": "Sync",
+      "type": "web"
+    },
+    {
+      "url": "http://103.107.160.36",
+      "name": "103.107.160.36",
+      "provider": "Sync",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.107.160.37/FTP/Movies",
+      "name": "103.107.160.37/FTP/Movies",
+      "provider": "Sync",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.107.160.37/FTP/TVSeries",
+      "name": "103.107.160.37/FTP/TVSeries",
+      "provider": "Sync",
+      "type": "ftp"
+    },
+    {
+      "url": "http://kaat.pw",
+      "name": "kaat.pw",
+      "provider": "Kaat",
+      "type": "web"
+    },
+    {
+      "url": "https://salamonline.com.bd",
+      "name": "salamonline.com.bd",
+      "provider": "Salamonline",
+      "type": "web"
+    },
+    {
+      "url": "http://43.246.200.82:8082",
+      "name": "43.246.200.82:8082",
+      "provider": "Salamonline",
+      "type": "ftp"
+    },
+    {
+      "url": "http://speed2000bd.com",
+      "name": "speed2000bd.com",
+      "provider": "Speed2000bd",
+      "type": "web"
+    },
+    {
+      "url": "http://skylinkdhaka.com",
+      "name": "skylinkdhaka.com",
+      "provider": "Skylinkdhaka",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skylinectg.com",
+      "name": "www.skylinectg.com",
+      "provider": "Skylinectg",
+      "type": "web"
+    },
+    {
+      "url": "http://103.214.156.1",
+      "name": "103.214.156.1",
+      "provider": "Skylinectg",
+      "type": "ftp"
+    },
+    {
+      "url": "http://fs.satrong.live",
+      "name": "fs.satrong.live",
+      "provider": "Satrong",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.saturninternetbd.com",
+      "name": "www.saturninternetbd.com",
+      "provider": "Saturninternetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.netcitybd.com",
+      "name": "www.netcitybd.com",
+      "provider": "Netcitybd",
+      "type": "web"
+    },
+    {
+      "url": "https://s-netisp.com",
+      "name": "s-netisp.com",
+      "provider": "S-netisp",
+      "type": "web"
+    },
+    {
+      "url": "http://smileit.online",
+      "name": "smileit.online",
+      "provider": "Smileit",
+      "type": "web"
+    },
+    {
+      "url": "https://scubenetworkbd.com",
+      "name": "scubenetworkbd.com",
+      "provider": "Scubenetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://superlinkbd.xyz",
+      "name": "superlinkbd.xyz",
+      "provider": "Superlinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.speedplusisp.net/mainweb/index.html",
+      "name": "www.speedplusisp.net/mainweb/index.html",
+      "provider": "Speedplusisp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.ssaliisp.net",
+      "name": "www.ssaliisp.net",
+      "provider": "Ssaliisp",
+      "type": "web"
+    },
+    {
+      "url": "http://103.80.70.60",
+      "name": "103.80.70.60",
+      "provider": "Ssaliisp",
+      "type": "ftp"
+    },
+    {
+      "url": "http://digbazi.net",
+      "name": "digbazi.net",
+      "provider": "Digbazi",
+      "type": "web"
+    },
+    {
+      "url": "http://103.80.70.60/drive",
+      "name": "103.80.70.60/drive",
+      "provider": "Digbazi",
+      "type": "ftp"
+    },
+    {
+      "url": "http://digbazi.net/drive",
+      "name": "digbazi.net/drive",
+      "provider": "Digbazi",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.skynetchowmuhani.com",
+      "name": "www.skynetchowmuhani.com",
+      "provider": "Skynetchowmuhani",
+      "type": "web"
+    },
+    {
+      "url": "http://103.109.56.114",
+      "name": "103.109.56.114",
+      "provider": "Skynetchowmuhani",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.109.56.115",
+      "name": "103.109.56.115",
+      "provider": "Skynetchowmuhani",
+      "type": "ftp"
+    },
+    {
+      "url": "http://funtime.com.bd",
+      "name": "funtime.com.bd",
+      "provider": "Funtime",
+      "type": "web"
+    },
+    {
+      "url": "http://www.starnetworkbd.com",
+      "name": "www.starnetworkbd.com",
+      "provider": "Starnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.skynet.com.bd",
+      "name": "www.skynet.com.bd",
+      "provider": "Skynet",
+      "type": "web"
+    },
+    {
+      "url": "https://staronline.com.bd",
+      "name": "staronline.com.bd",
+      "provider": "Staronline",
+      "type": "web"
+    },
+    {
+      "url": "http://www.come2speed.com",
+      "name": "www.come2speed.com",
+      "provider": "Come2speed",
+      "type": "web"
+    },
+    {
+      "url": "https://speedlinkbd.com",
+      "name": "speedlinkbd.com",
+      "provider": "Speedlinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.tetrasoftbd.com",
+      "name": "www.tetrasoftbd.com",
+      "provider": "Tetrasoftbd",
+      "type": "web"
+    },
+    {
+      "url": "http://tetraplex.net.bd",
+      "name": "tetraplex.net.bd",
+      "provider": "Tetraplex",
+      "type": "web"
+    },
+    {
+      "url": "http://www.tnetftp.com",
+      "name": "www.tnetftp.com",
+      "provider": "Tnetftp",
+      "type": "ftp"
+    },
+    {
+      "url": "https://mytlinkbd.net",
+      "name": "mytlinkbd.net",
+      "provider": "Mytlinkbd",
+      "type": "web"
+    },
+    {
+      "url": "https://taltola.net",
+      "name": "taltola.net",
+      "provider": "Taltola",
+      "type": "web"
+    },
+    {
+      "url": "http://146.196.48.9",
+      "name": "146.196.48.9",
+      "provider": "Taltola",
+      "type": "ftp"
+    },
+    {
+      "url": "http://146.196.48.10",
+      "name": "146.196.48.10",
+      "provider": "Taltola",
+      "type": "ftp"
+    },
+    {
+      "url": "http://todayvisionbd.com",
+      "name": "todayvisionbd.com",
+      "provider": "Todayvisionbd",
+      "type": "web"
+    },
+    {
+      "url": "https://touchonline.net.bd",
+      "name": "touchonline.net.bd",
+      "provider": "Touchonline",
+      "type": "web"
+    },
+    {
+      "url": "https://talukdernet.com",
+      "name": "talukdernet.com",
+      "provider": "Talukdernet",
+      "type": "web"
+    },
+    {
+      "url": "https://tnetwork.com.bd",
+      "name": "tnetwork.com.bd",
+      "provider": "Tnetwork",
+      "type": "web"
+    },
+    {
+      "url": "http://tuhinenterprise.com",
+      "name": "tuhinenterprise.com",
+      "provider": "Tuhinenterprise",
+      "type": "web"
+    },
+    {
+      "url": "http://www.tufan.live",
+      "name": "www.tufan.live",
+      "provider": "Tufan",
+      "type": "web"
+    },
+    {
+      "url": "https://www.thenetheads.com",
+      "name": "www.thenetheads.com",
+      "provider": "Thenetheads",
+      "type": "web"
+    },
+    {
+      "url": "http://www.takerhatwifi.com",
+      "name": "www.takerhatwifi.com",
+      "provider": "Takerhatwifi",
+      "type": "web"
+    },
+    {
+      "url": "http://uturnbd.com",
+      "name": "uturnbd.com",
+      "provider": "Uturnbd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.16.16.3",
+      "name": "172.16.16.3",
+      "provider": "Uturnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.16.16.5",
+      "name": "172.16.16.5",
+      "provider": "Uturnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.16.16.6",
+      "name": "172.16.16.6",
+      "provider": "Uturnbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.univisionbd.net",
+      "name": "www.univisionbd.net",
+      "provider": "Univisionbd",
+      "type": "web"
+    },
+    {
+      "url": "http://unique24.net",
+      "name": "unique24.net",
+      "provider": "Unique24",
+      "type": "web"
+    },
+    {
+      "url": "http://media.unique24.net",
+      "name": "media.unique24.net",
+      "provider": "Unique24",
+      "type": "ftp"
+    },
+    {
+      "url": "http://www.uniqueonlinebd.com",
+      "name": "www.uniqueonlinebd.com",
+      "provider": "Uniqueonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.chillbd.net",
+      "name": "www.chillbd.net",
+      "provider": "Chillbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.updatenetworkbd.com",
+      "name": "www.updatenetworkbd.com",
+      "provider": "Updatenetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://uturninternet.com",
+      "name": "uturninternet.com",
+      "provider": "Uturninternet",
+      "type": "web"
+    },
+    {
+      "url": "http://103.17.181.43",
+      "name": "103.17.181.43",
+      "provider": "Uturninternet",
+      "type": "ftp"
+    },
+    {
+      "url": "http://vdomela.com",
+      "name": "vdomela.com",
+      "provider": "Vdomela",
+      "type": "web"
+    },
+    {
+      "url": "https://velocity.net.bd",
+      "name": "velocity.net.bd",
+      "provider": "Velocity",
+      "type": "web"
+    },
+    {
+      "url": "https://www.ctghub.com",
+      "name": "www.ctghub.com",
+      "provider": "Ctghub",
+      "type": "web"
+    },
+    {
+      "url": "http://videoelephantbd.com",
+      "name": "videoelephantbd.com",
+      "provider": "Videoelephantbd",
+      "type": "web"
+    },
+    {
+      "url": "http://172.17.17.19",
+      "name": "172.17.17.19",
+      "provider": "Videoelephantbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://172.17.17.14:82",
+      "name": "172.17.17.14:82",
+      "provider": "Videoelephantbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.vibebd.com",
+      "name": "www.vibebd.com",
+      "provider": "Vibebd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.vcbd.net",
+      "name": "www.vcbd.net",
+      "provider": "Vcbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.winneritbd.com",
+      "name": "www.winneritbd.com",
+      "provider": "Winneritbd",
+      "type": "web"
+    },
+    {
+      "url": "http://103.92.213.55",
+      "name": "103.92.213.55",
+      "provider": "Winneritbd",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.92.213.55/Data",
+      "name": "103.92.213.55/Data",
+      "provider": "Winneritbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.worldbd.net",
+      "name": "www.worldbd.net",
+      "provider": "Worldbd",
+      "type": "web"
+    },
+    {
+      "url": "https://webrangers.net",
+      "name": "webrangers.net",
+      "provider": "Webrangers",
+      "type": "web"
+    },
+    {
+      "url": "https://www.wetube.com.bd",
+      "name": "www.wetube.com.bd",
+      "provider": "Wetube",
+      "type": "web"
+    },
+    {
+      "url": "http://45.45.45.45",
+      "name": "45.45.45.45",
+      "provider": "Wetube",
+      "type": "ftp"
+    },
+    {
+      "url": "https://www.xplorenetbd.com",
+      "name": "www.xplorenetbd.com",
+      "provider": "Xplorenetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://maxnetbd.com",
+      "name": "maxnetbd.com",
+      "provider": "Maxnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://xenialbb.net",
+      "name": "xenialbb.net",
+      "provider": "Xenialbb",
+      "type": "web"
+    },
+    {
+      "url": "https://www.yellownetbd.com",
+      "name": "www.yellownetbd.com",
+      "provider": "Yellownetbd",
+      "type": "web"
+    },
+    {
+      "url": "https://www.yellownetbd.com/ftp",
+      "name": "www.yellownetbd.com/ftp",
+      "provider": "Yellownetbd",
+      "type": "ftp"
+    },
+    {
+      "url": "https://yesnetcommunication.com",
+      "name": "yesnetcommunication.com",
+      "provider": "Yesnetcommunication",
+      "type": "web"
+    },
+    {
+      "url": "http://www.yournetcommunications.net",
+      "name": "www.yournetcommunications.net",
+      "provider": "Yournetcommunications",
+      "type": "web"
+    },
+    {
+      "url": "http://www.zxonlinebd.com",
+      "name": "www.zxonlinebd.com",
+      "provider": "Zxonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://zero4communication.com",
+      "name": "zero4communication.com",
+      "provider": "Zero4communication",
+      "type": "web"
+    },
+    {
+      "url": "http://103.96.36.115",
+      "name": "103.96.36.115",
+      "provider": "Zero4communication",
+      "type": "ftp"
+    },
+    {
+      "url": "https://zoomonlinebd.net",
+      "name": "zoomonlinebd.net",
+      "provider": "Zoomonlinebd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.zipnetbd.com",
+      "name": "www.zipnetbd.com",
+      "provider": "Zipnetbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.zipcyber.com",
+      "name": "www.zipcyber.com",
+      "provider": "Zipcyber",
+      "type": "web"
+    },
+    {
+      "url": "http://zoomonline.com.bd",
+      "name": "zoomonline.com.bd",
+      "provider": "Zoomonline",
+      "type": "web"
+    },
+    {
+      "url": "http://3netbd.com",
+      "name": "3netbd.com",
+      "provider": "3netbd",
+      "type": "web"
+    },
+    {
+      "url": "https://3rcommunications.com",
+      "name": "3rcommunications.com",
+      "provider": "3rcommunications",
+      "type": "web"
+    },
+    {
+      "url": "https://www.4gnetworkbd.com",
+      "name": "www.4gnetworkbd.com",
+      "provider": "4gnetworkbd",
+      "type": "web"
+    },
+    {
+      "url": "http://www.29com.net",
+      "name": "www.29com.net",
+      "provider": "29com",
+      "type": "web"
+    },
+    {
+      "url": "https://www.elite.net.bd",
+      "name": "www.elite.net.bd",
+      "provider": "Elite",
+      "type": "web"
+    },
+    {
+      "url": "http://15.20.20.20",
+      "name": "15.20.20.20",
+      "provider": "Elite",
+      "type": "ftp"
+    },
+    {
+      "url": "http://justmovie.live",
+      "name": "justmovie.live",
+      "provider": "Justmovie",
+      "type": "web"
+    },
+    {
+      "url": "http://117.103.80.101",
+      "name": "117.103.80.101",
+      "provider": "Justmovie",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.85.197.10",
+      "name": "103.85.197.10",
+      "provider": "Justmovie",
+      "type": "ftp"
+    },
+    {
+      "url": "http://103.213.238.70:8096",
+      "name": "103.213.238.70:8096",
+      "provider": "Justmovie",
+      "type": "emby"
+    },
+    {
+      "url": "http://160.202.146.220",
+      "name": "160.202.146.220",
+      "provider": "Justmovie",
+      "type": "ftp"
+    },
+    {
+      "url": "https://genvideos.org",
+      "name": "genvideos.org",
+      "provider": "Genvideos",
+      "type": "web"
+    }
+  ]
+}
